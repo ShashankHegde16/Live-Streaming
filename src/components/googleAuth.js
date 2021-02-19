@@ -49,11 +49,7 @@ class GoogleAuth extends Component {
     }
 
     render() {
-        return (
-            <div>
-
-                {this.renderButton()}
-            </div>);
+        return <div>{this.renderButton()}</div>;
     }
 
 
